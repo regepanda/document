@@ -1,7 +1,17 @@
-composer.phar
-/vendor/
-
-# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
-# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
-# composer.lock
-.idea/encodings.xml
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+*.swp
+.DS_Store
+.idea/
+/storage/debugbar
+/.buildpath
+/.main-2017-02-14.log
+/.project
+/.settings/
+/.buildpath
+/_ide_helper.php
+personal.conf
+/storage/*.log
