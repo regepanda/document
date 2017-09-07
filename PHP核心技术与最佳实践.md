@@ -88,14 +88,15 @@ typedef struct _hashtable {
 一过程，Opcode把php代码编译成一种中间语言缓存起来。就不用重复执行以下前三步。
 	a、Scanning(Lexing) ,将PHP代码转换为语言片段(Tokens)、
 	b、Parsing, 将Tokens转换成简单而有意义的表达式
-	c、Compilation, 将表达式编译成Opocdes
+	c、Compilation, 将表达式编译成Opcodes
 	d、Execution, 顺次执行Opcodes，每次一条，从而实现PHP脚本的功能。
 (2)、eAccelerator常驻内存。对应php版本的linux源码下载：http://eaccelerator.net/。服务器第一次请求php问件时，会对php文件的Opcode
 进行缓存，由zend虚拟机直接执行，节省语法解析的消耗。
 ```
 ## <b>Memcached使用与实践</b>
 特点：1、协议简单。2、基于libevent的事件处理。2、内置内存存储方式。4、采用互不通信的分布式。
-
+```
+```
 
 ## <b>高性能网站架构方案</b>
 #### <font color='red'>MySQL主从复制</font>
